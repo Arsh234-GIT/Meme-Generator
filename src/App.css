@@ -1,0 +1,175 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.meme-container{
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid green;
+}
+
+.main-container{
+  color: #FFFFFF;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  height: 65px;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+.right-heading{
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  text-align: right;
+  margin-right: 35px;
+  color: #FFFFFF;
+}
+
+.left-container{
+  margin-left: 10px;
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.left-heading{
+  gap: 10px;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+  text-align: left;
+  height: 26.22px;
+  display: flex;
+  color: #FFFFFF;
+}
+
+.troll-face{
+  height: 26.22px;
+}
+
+.main-container{
+  padding: 36px;
+}
+
+.form{
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form-input{
+  font-family: "karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+
+.form-button{
+  grid-column: 1 / -1;
+  font-family: "karla", sans-serif;
+  border-radius: 5px;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.meme-image{
+  margin-top: 15px;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.meme {
+  position: relative;
+}
+
+.meme--image {
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
