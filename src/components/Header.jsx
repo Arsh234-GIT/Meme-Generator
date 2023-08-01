@@ -12,7 +12,7 @@ function Header() {
                 <p className="left-heading ">Meme Generator</p> 
                 </div>
                 
-                <p className="right-heading">React Course - Project 3</p>
+               
             </header>
 
         )
